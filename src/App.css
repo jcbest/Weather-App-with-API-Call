@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.App{
+margin: 0 auto;
+color: white;
+}
+
+.App{
+    display: flex;
+    justify-items: center;
+    align-items: space-between;
+}
+
+@media(max-width:700px){
+.App{
+
+    flex-direction: column;
+}
+}
